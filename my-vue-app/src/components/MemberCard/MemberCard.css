@@ -1,0 +1,43 @@
+.mcard-container{
+    width: 82.4375rem;
+    height: 58.0625rem;
+    flex-shrink: 0;
+    background: var(--light-text, #FFF);
+}
+h1{
+    width: 31.1875rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    color: var(--dark-blue, #003049);
+    text-align: justify;
+    font-family: Nunito, sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+h3{
+    width: 22.9375rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+    color: var(--dark-blue, #003049);
+    text-align: justify;
+    font-family: Nunito, sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.info{
+    width: 26.75rem;
+    height: 1.875rem;
+    flex-shrink: 0;
+    color: var(--dark-gray, #767676);
+    background: var(--light-gray, #F4F4F4);
+    text-align: justify;
+    font-family: Nunito;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

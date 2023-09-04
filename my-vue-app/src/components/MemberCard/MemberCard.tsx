@@ -1,5 +1,5 @@
 interface MCardProps{
-    chidren: React.ReactNode
+    children: React.ReactNode
 };
 
 export const MemberCard = ({children}:MCardProps) => {
