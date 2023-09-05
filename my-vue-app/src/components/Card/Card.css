@@ -35,7 +35,7 @@ h3{
     color: var(--dark-gray, #767676);
     background: var(--light-gray, #F4F4F4);
     text-align: justify;
-    font-family: Nunito;
+    font-family: Nunito, sans-serif;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
