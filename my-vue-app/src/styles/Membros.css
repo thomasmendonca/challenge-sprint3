@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito');
+body{
+    font-family: 'Lilita One', cursive;
+    font-family: 'Nunito', sans-serif;
+}
+
+.title{
+    margin-left: 103px;
+    display: flex;
+    flex-shrink: 0;
+    color: var(--dark-blue, #003049);
+    text-align: justify;
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mcard-container{
+    margin-left: 103px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.mcard{
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.member-title{
+    display: flex;
+    flex-shrink: 0;
+    color: var(--dark-blue, #003049);
+    text-align: justify;
+    font-size: 24px;
+}
+
+.member-info{
+    width: 394px;
+    height: 122px;
+    flex-shrink: 0;
+    background: var(--light-gray, #F4F4F4);
+    padding-left: 10px;
+}
+
+.member-info > p{
+    flex-shrink: 0;
+    color: var(--dark-gray, #767676);
+    text-align: justify;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.member-picture{
+    width: 132px;
+    height: 131px;
+    flex-shrink: 0;
+    border-radius: 252px;
+}
+
+.back-button{
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 274.223px;
+    height: 77.125px;
+    border-radius: 12px;
+    background: var(--dark-blue, #003049);
+
+    margin-left: 150%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.back-button > button{
+    color: var(--light-gray, #F4F4F4);
+    padding: 0 40%;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
