@@ -1,0 +1,16 @@
+button {
+    border: 3px solid transparent;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 32px;
+    color: white;
+    background-color: var(--dark-blue, #003049);
+    cursor: pointer;
+    transition: border-color 0.25s;
+
+    text-align: center;
+    align-items: center;
+}
+  button:hover {
+    border-color: #669BBC;
+}
