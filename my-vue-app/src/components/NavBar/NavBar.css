@@ -1,13 +1,14 @@
 .NavBar .Navigation {
+    position: absolute;         
+
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 .NavBar .Navigation .Hamburger {
-    position: absolute;
-    left: 5%;
-    top: 5%;
     cursor: pointer;
 }
 
@@ -16,9 +17,11 @@
     flex-direction: column;
     list-style: none;
 
-    position: absolute;
+    position:static;
     top: 10%;
-    left: 0;
+    left: 7%;
+
+    width: 20vw;
 }
 
 .NavBar nav ul li {

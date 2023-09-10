@@ -7,16 +7,19 @@ import { Welcome } from './pages/Welcome'
 import { Start } from './pages/Start'
 import { NextStep } from './pages/NextStep'
 import { Ready } from './pages/Ready'
+import { Home } from './pages/Home'
+import { Finish } from './pages/Finish'
 
 function App() {
   
-
   return (
     <>
       <Welcome></Welcome>
       <Start></Start>
       <NextStep></NextStep>
       <Ready></Ready>
+      <Finish></Finish>
+      <Home></Home>
       {/* <Membros/> */}
       {/* <Buttonn>
         Teste

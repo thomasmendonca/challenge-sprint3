@@ -8,12 +8,25 @@
   background-color: #669bbc;
 }
 
+.content .title{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+}
+
 .content .title h1 {
   color: #003049;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
 }
+
+.content .title img{
+    width: 83px;
+    height: 61px;
+}
+
 .c1 {
   color: #c1121f;
 }
@@ -96,6 +109,11 @@
 
 #red-button {
   background-color: #c1121f;
+  
+}
+
+#red-button:hover {
+    border-color: #620a10;
 }
 
 #start-button {
